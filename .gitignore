@@ -5,3 +5,6 @@ bot_sessions
 db.json
 core.class.log
 baileys.log
+.wwebjs_cache
+.wwebjs_auth
+images

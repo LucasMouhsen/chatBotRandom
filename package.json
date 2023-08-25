@@ -18,7 +18,9 @@
         "axios": "^1.4.0",
         "mime-types": "2.1.35",
         "node-fetch": "^3.3.2",
-        "wa-sticker-formatter": "4.3.2"
+        "wa-sticker-formatter": "4.3.2",
+        "wbm": "^1.1.16",
+        "whatsapp-web.js": "^1.22.1"
     },
     "author": "",
     "license": "ISC"
