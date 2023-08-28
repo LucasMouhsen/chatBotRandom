@@ -98,12 +98,7 @@ const main = async () => {
         provider: adapterProvider,
         database: adapterDB,
     })
-
-    QRPortalWeb()
-
-
-   
-     
+    QRPortalWeb() 
 }
 
 main()

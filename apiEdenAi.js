@@ -2,7 +2,7 @@ const axios = require("axios").default;
 const fs = require("fs");
 const path = require("path");
 
-const authToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYzQ3MGMzOGMtZDkxMi00NTdlLWI0ZGEtNjk5YjdhNGMzNzY3IiwidHlwZSI6ImFwaV90b2tlbiJ9.XJ3idjv5ZRswTMg_Qr6YyLW47_rAO6V1Xlv5VCcU274";
+const authToken = process.env.API_EDEN;
 
 const generateImage = async (ctx) => {
     try {
